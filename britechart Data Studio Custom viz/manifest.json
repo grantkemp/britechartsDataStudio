@@ -1,0 +1,25 @@
+{
+  "name": "Hello world BriteChart",
+  "organization": "asfdafdsf",
+  "description": "A package of cool visualizations.",
+  "logoUrl": "https://url",
+  "organizationUrl": "https://url",
+  "supportUrl": "https://url",
+  "privacyPolicyUrl": "https://url",
+  "termsOfServiceUrl": "https://url",
+  "packageUrl": "https://url",
+  "devMode": true,
+  "components": [
+    {
+      "id": "HelloBriteChart",
+      "name": "HelloBriteChart",
+      "description": "Hello world BriteChart by Grant Kemp(@Ukdatageek)",
+      "iconUrl": "https://url.png",
+      "resource": {
+        "js": "gs://{YOUR CLOUDNAME}/brite/brite.js",
+        "config": "gs://{YOUR CLOUDNAME}/brite/brite.json",
+        "css": "gs://{YOUR CLOUDNAME}/brite/brite.css"
+      }
+    }
+  ]
+}
